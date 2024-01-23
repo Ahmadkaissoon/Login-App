@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    margin: auto auto;
+    width: 600px;
+    margin-top: 200px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+p{
+    color: red;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+h1{
+    color: var(--main-color);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.line{
+    background: var(--main-color);
+    width: 61px;
+    height: 6px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.inputs {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.input img{
+    margin: 0px 32px;
+}
+
+input{
+    height: 48px;
+    width: 400px;
+    background: #eaeaea;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+p{
+   padding-left: 64px;
+   margin-top: -10px;
+   font-size: 18px;
+}
+
+.forget-pass {
+    padding-left: 64px;
+    margin-top: 28px;
+    color: #797979;
+    font-size: 18px;
+}
+
+span{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 56px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 48px;
+    -webkit-border-radius:48px;
+    -moz-border-radius:48px;
+    -o-border-radius:48px;
+    -ms-border-radius:48px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn_gray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 56px;
+    color: #fff;
+    background: gray;
+    border-radius: 48px;
+    -webkit-border-radius:48px;
+    -moz-border-radius:48px;
+    -o-border-radius:48px;
+    -ms-border-radius:48px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
